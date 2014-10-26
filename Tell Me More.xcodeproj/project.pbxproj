@@ -13,6 +13,7 @@
 		4185B64919FCF707008F3CE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4185B64819FCF707008F3CE9 /* Images.xcassets */; };
 		4185B64C19FCF707008F3CE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4185B64A19FCF707008F3CE9 /* LaunchScreen.xib */; };
 		4185B65819FCF708008F3CE9 /* Tell_Me_MoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185B65719FCF708008F3CE9 /* Tell_Me_MoreTests.swift */; };
+		4185B66219FCF7B9008F3CE9 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185B66119FCF7B9008F3CE9 /* Prediction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4185B65119FCF708008F3CE9 /* Tell Me MoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tell Me MoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4185B65619FCF708008F3CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4185B65719FCF708008F3CE9 /* Tell_Me_MoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tell_Me_MoreTests.swift; sourceTree = "<group>"; };
+		4185B66119FCF7B9008F3CE9 /* Prediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4185B64119FCF707008F3CE9 /* AppDelegate.swift */,
 				4185B64319FCF707008F3CE9 /* ViewController.swift */,
+				4185B66119FCF7B9008F3CE9 /* Prediction.swift */,
 				4185B64519FCF707008F3CE9 /* Main.storyboard */,
 				4185B64819FCF707008F3CE9 /* Images.xcassets */,
 				4185B64A19FCF707008F3CE9 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				4185B64419FCF707008F3CE9 /* ViewController.swift in Sources */,
 				4185B64219FCF707008F3CE9 /* AppDelegate.swift in Sources */,
+				4185B66219FCF7B9008F3CE9 /* Prediction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
