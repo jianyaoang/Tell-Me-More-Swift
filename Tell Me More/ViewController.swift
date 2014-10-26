@@ -44,9 +44,18 @@ class ViewController: UIViewController {
         
         let predictionIndex: Int = Int(arc4random()) % thePredictions.predictionArray.count
 
-        self.predictionLabel.numberOfLines = 0
-        self.predictionLabel.text = thePredictions.predictionArray.objectAtIndex(predictionIndex) as NSString
+        let x = 1
         
+        if predictionIndex == x
+        {
+            self.predictionLabel.numberOfLines = 0
+            self.predictionLabel.text = "What a lucky day!"
+        }
+        else
+        {
+            self.predictionLabel.numberOfLines = 0
+            self.predictionLabel.text = thePredictions.predictionArray.objectAtIndex(predictionIndex) as NSString
+        }
     }
     
 }
